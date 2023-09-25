@@ -5,9 +5,9 @@ Um e-commerce de roupas, **Meteora** foi desenvolvido durante o challenge front-
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Meteora**
+| :sparkles: Nome        | **Lojinha**
 | :label: Tecnologias | JavaScript, Bootstrap, CSS, HTML
-| :rocket: URL         | https://robertoalyssom.github.io/Meteora/
+| :rocket: URL         | [https://robertoalyssom.github.io/Meteora/](https://profrenatopereira.github.io/lojinha/index.html)
 | :fire: Desafio     | [**Design no Figma**](https://www.figma.com/file/0mR3RFueSiD6pP3B1VUG8U/Challenge-Front-end-%7C-Loja-Meteora-(Copy)?node-id=2386%3A2430&mode=dev)
 
 <!-- img -->
