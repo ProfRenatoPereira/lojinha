@@ -1,0 +1,62 @@
+@import url("./src/styles/header.css");
+@import url("./src/styles/carousel.css");
+@import url("./src/styles/modal.css");
+@import url("./src/styles/categories.css");
+@import url("./src/styles/products.css");
+
+:root {
+    --black: black;
+    --white: #fff;
+    --light-grey: #ADB5BD;
+    --cinza: #6C757D;
+    --lilas: #9353FF;
+    --verde-limao: #DAFF01;
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.texto-menor {
+    font-size: 0.8rem;
+}
+
+.btn-lilas {
+    color: var(--white);
+    background-color: var(--lilas);
+    border-color: var(--lilas);
+    transition: .4s;
+}
+
+.btn-lilas:hover {
+    background-color: var(--verde-limao);
+    color: var(--lilas);
+}
+
+.btn-lilas:active {
+    background-color: var(--black);
+    color: var(--verde-limao);
+}
+
+.divs-facilidades,
+.div-novidades {
+    width: 325px;
+}
+
+.verde-limao {
+    color: var(--verde-limao);
+}
+
+.nav-item:hover {
+    color: var(--verde-limao);
+}
+
+.cinza-claro {
+    color: #ADB5BD;
+}
+
+@media screen and (min-width: 768px) {
+    .div-novidades {
+        width: 655px;
+    }
+}
