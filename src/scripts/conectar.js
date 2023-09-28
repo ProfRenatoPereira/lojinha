@@ -1,5 +1,5 @@
 async function productsList() {
-  const promise = await fetch("https://meteora-db.vercel.app/produtos");
+  const promise = await fetch("https://vercel.com/profrenatopereira/lojinhaprodutos");
   const promiseConverted = await promise.json();
 
   return promiseConverted;
@@ -7,7 +7,7 @@ async function productsList() {
 
 async function searchList(searchFieldValue) {
   const searchedProducts = await fetch(
-    `https://meteora-db.vercel.app/produtos?q=${searchFieldValue}`
+    `https://vercel.com/profrenatopereira/lojinhaprodutos?q=${searchFieldValue}`
   );
 
   const convertedSearchedList = await searchedProducts.json();
